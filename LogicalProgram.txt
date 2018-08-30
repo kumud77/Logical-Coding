@@ -1,0 +1,157 @@
+public class Reversestring{
+public static void main (string [] args)
+{
+String s = "Testing";
+String rev = " ";
+
+for (i=s.length-1 ;i>=1 ; i--)
+rev = rev + s.charTo(i);
+{
+System.out.println(rev);
+}
+
+*****************************************************************************************************************
+
+
+public class ReverseInteger{
+public static void main (string [] args)
+{
+int num = 12345;
+rev = 0;
+
+while( num!=o)
+rev = num*10 + num%10;
+num = num/10;
+{
+System.out.println(rev);
+}
+
+****************************************************************************************************************
+
+public class EvenOrOdd{
+public static void main(String [] args)
+{
+int x;
+Scanner scan = new Scanner(System.in);
+
+System.out.println("Enter A number");
+x = scan.nextInt();
+
+if(x%2 == 0)
+{
+System.out .println("this is a even number");
+}
+else
+{
+System.out .println("this is a odd number");
+}
+}
+
+*****************************************************************************************************************
+
+public class PrimeOrNot{
+public static void main (String [] args)
+{
+int x , i , count=0;
+Scanner scan = new Scanner(System.in);
+
+System.out .println("Enter a number");
+x = scan.nextInt();
+
+for (i=2 ; i<x ; i++)
+{
+if (x%i==0)
+{
+count++;
+break;
+}
+}
+if (count == 0)
+{
+System.out.println("This is a prime number");
+}
+else
+{
+System.out.println("This is not a prime number");
+}
+}
+
+*****************************************************************************************************************
+
+public class PositiveOrNegative{
+Public static void main (String [] args)
+{
+int x;
+Scanner scan = new Scanner(System.in);
+
+System.out.println("enter a number");
+x = scan.nextInt();
+
+if (x>0)
+{
+System.out.println("The given number is positive");
+}
+else if (x<0)
+{
+System.out.println("The given number is odd");
+}
+else
+{
+System.out.println("The given number is neither positive or negative");
+}
+}
+
+********************************************************************************************************************
+
+public class PrintAlphabets{
+public static void main (String [] args)
+{
+char ch;
+
+for (ch = 'a'; ch<='z'; ch++);
+system.out.println(ch);
+}
+}
+
+********************************************************************************************************************
+
+public class CheckAlphabet{
+public static void main(String [] args)
+{
+char ch;
+Scanner scan = new Scanner(System.in);
+
+Systen.out.println("Enter a character");
+ch = scan.next().charAt(0);
+
+if ((ch>='a' && ch<='z') // (ch>='A' && ch<='Z'))
+{
+System.out.println(ch + "is an alphabet");
+{
+else
+{
+System.out.println(ch + "is not a alphabet");
+}
+
+**************************************************************************************************************
+
+1st Method
+public class DuplicateElements{
+public static void main (String [] args)
+{
+String [] strArray = {"abc" ,"def" ,"mno" ,"xyz" ,"pqr" ,"xyz" ,"def"};
+
+for (int i= 0 ;i<strArray.length-1 ; i++)
+{
+  for ( int j=i+1 ; j<strArray.length ; j++)
+{
+if ((strArray[i].equals(strArray[j]))
+{
+System.out.println("Duplicate element is:" strArray[i]);
+}
+}
+ 
+----------------------------------------------------------------------------
+
+
+
